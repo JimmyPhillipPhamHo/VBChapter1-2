@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0363B2EE-2C7D-4CFD-9151-487D72DE0BDE}</ProjectGuid>
+    <ProjectGuid>{572E6F02-4E51-4A25-ABF9-2B0E927A15BA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>KiloConverter.My.MyApplication</StartupObject>
-    <RootNamespace>KiloConverter</RootNamespace>
-    <AssemblyName>KiloConverter</AssemblyName>
+    <StartupObject>German_Number.My.MyApplication</StartupObject>
+    <RootNamespace>German_Number</RootNamespace>
+    <AssemblyName>German Number</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>KiloConverter.xml</DocumentationFile>
+    <DocumentationFile>German Number.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>KiloConverter.xml</DocumentationFile>
+    <DocumentationFile>German Number.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
