@@ -34,16 +34,17 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(126, 29)
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(74, 33)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(233, 39)
+        Me.Label1.Size = New System.Drawing.Size(328, 57)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Do you know the German words for the number " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "                              1 thr" & _
     "ough 5?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "       Click the buttones below to see them."
         '
         'btnOne
         '
-        Me.btnOne.Location = New System.Drawing.Point(12, 169)
+        Me.btnOne.Location = New System.Drawing.Point(12, 133)
         Me.btnOne.Name = "btnOne"
         Me.btnOne.Size = New System.Drawing.Size(75, 23)
         Me.btnOne.TabIndex = 1
@@ -52,7 +53,7 @@ Partial Class Form1
         '
         'btnTwo
         '
-        Me.btnTwo.Location = New System.Drawing.Point(106, 169)
+        Me.btnTwo.Location = New System.Drawing.Point(107, 133)
         Me.btnTwo.Name = "btnTwo"
         Me.btnTwo.Size = New System.Drawing.Size(75, 23)
         Me.btnTwo.TabIndex = 2
@@ -61,7 +62,7 @@ Partial Class Form1
         '
         'btnThree
         '
-        Me.btnThree.Location = New System.Drawing.Point(204, 169)
+        Me.btnThree.Location = New System.Drawing.Point(204, 133)
         Me.btnThree.Name = "btnThree"
         Me.btnThree.Size = New System.Drawing.Size(75, 23)
         Me.btnThree.TabIndex = 3
@@ -70,7 +71,7 @@ Partial Class Form1
         '
         'btnFour
         '
-        Me.btnFour.Location = New System.Drawing.Point(305, 169)
+        Me.btnFour.Location = New System.Drawing.Point(299, 133)
         Me.btnFour.Name = "btnFour"
         Me.btnFour.Size = New System.Drawing.Size(75, 23)
         Me.btnFour.TabIndex = 4
@@ -79,7 +80,7 @@ Partial Class Form1
         '
         'btnFive
         '
-        Me.btnFive.Location = New System.Drawing.Point(402, 169)
+        Me.btnFive.Location = New System.Drawing.Point(397, 133)
         Me.btnFive.Name = "btnFive"
         Me.btnFive.Size = New System.Drawing.Size(75, 23)
         Me.btnFive.TabIndex = 5
@@ -88,7 +89,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(204, 247)
+        Me.btnExit.Location = New System.Drawing.Point(204, 197)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 6
@@ -99,7 +100,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(494, 361)
+        Me.ClientSize = New System.Drawing.Size(494, 257)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnFive)
         Me.Controls.Add(Me.btnFour)
@@ -108,7 +109,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnOne)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "German Number"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
