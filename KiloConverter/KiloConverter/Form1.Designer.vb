@@ -32,7 +32,7 @@ Partial Class KiloConverter
         '
         'btnInches
         '
-        Me.btnInches.Location = New System.Drawing.Point(35, 136)
+        Me.btnInches.Location = New System.Drawing.Point(34, 99)
         Me.btnInches.Name = "btnInches"
         Me.btnInches.Size = New System.Drawing.Size(75, 23)
         Me.btnInches.TabIndex = 0
@@ -41,7 +41,7 @@ Partial Class KiloConverter
         '
         'btnFeet
         '
-        Me.btnFeet.Location = New System.Drawing.Point(158, 136)
+        Me.btnFeet.Location = New System.Drawing.Point(152, 99)
         Me.btnFeet.Name = "btnFeet"
         Me.btnFeet.Size = New System.Drawing.Size(75, 23)
         Me.btnFeet.TabIndex = 1
@@ -50,7 +50,7 @@ Partial Class KiloConverter
         '
         'btnMiles
         '
-        Me.btnMiles.Location = New System.Drawing.Point(410, 136)
+        Me.btnMiles.Location = New System.Drawing.Point(382, 99)
         Me.btnMiles.Name = "btnMiles"
         Me.btnMiles.Size = New System.Drawing.Size(75, 23)
         Me.btnMiles.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class KiloConverter
         '
         'btnYards
         '
-        Me.btnYards.Location = New System.Drawing.Point(269, 136)
+        Me.btnYards.Location = New System.Drawing.Point(272, 99)
         Me.btnYards.Name = "btnYards"
         Me.btnYards.Size = New System.Drawing.Size(75, 23)
         Me.btnYards.TabIndex = 3
@@ -68,7 +68,7 @@ Partial Class KiloConverter
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(231, 222)
+        Me.btnExit.Location = New System.Drawing.Point(213, 152)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
@@ -79,7 +79,7 @@ Partial Class KiloConverter
         '
         Me.lblMessage.AutoSize = True
         Me.lblMessage.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMessage.Location = New System.Drawing.Point(183, 47)
+        Me.lblMessage.Location = New System.Drawing.Point(170, 29)
         Me.lblMessage.Name = "lblMessage"
         Me.lblMessage.Size = New System.Drawing.Size(150, 24)
         Me.lblMessage.TabIndex = 5
@@ -89,7 +89,7 @@ Partial Class KiloConverter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(543, 282)
+        Me.ClientSize = New System.Drawing.Size(501, 213)
         Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnYards)
