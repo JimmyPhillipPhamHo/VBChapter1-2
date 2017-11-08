@@ -34,7 +34,7 @@ Partial Class Form1
         '
         'btnSinister
         '
-        Me.btnSinister.Location = New System.Drawing.Point(12, 148)
+        Me.btnSinister.Location = New System.Drawing.Point(23, 134)
         Me.btnSinister.Name = "btnSinister"
         Me.btnSinister.Size = New System.Drawing.Size(75, 23)
         Me.btnSinister.TabIndex = 0
@@ -43,7 +43,7 @@ Partial Class Form1
         '
         'btnMedium
         '
-        Me.btnMedium.Location = New System.Drawing.Point(115, 148)
+        Me.btnMedium.Location = New System.Drawing.Point(122, 134)
         Me.btnMedium.Name = "btnMedium"
         Me.btnMedium.Size = New System.Drawing.Size(75, 23)
         Me.btnMedium.TabIndex = 1
@@ -52,7 +52,7 @@ Partial Class Form1
         '
         'btnDexter
         '
-        Me.btnDexter.Location = New System.Drawing.Point(214, 148)
+        Me.btnDexter.Location = New System.Drawing.Point(221, 133)
         Me.btnDexter.Name = "btnDexter"
         Me.btnDexter.Size = New System.Drawing.Size(75, 23)
         Me.btnDexter.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(115, 205)
+        Me.btnExit.Location = New System.Drawing.Point(123, 194)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.lblCenter.AutoSize = True
         Me.lblCenter.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCenter.Location = New System.Drawing.Point(121, 77)
+        Me.lblCenter.Location = New System.Drawing.Point(128, 77)
         Me.lblCenter.Name = "lblCenter"
         Me.lblCenter.Size = New System.Drawing.Size(58, 18)
         Me.lblCenter.TabIndex = 5
@@ -105,7 +105,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(12, 24)
+        Me.Label4.Location = New System.Drawing.Point(10, 26)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(297, 19)
         Me.Label4.TabIndex = 7
@@ -115,7 +115,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(315, 276)
+        Me.ClientSize = New System.Drawing.Size(315, 244)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblRight)
         Me.Controls.Add(Me.lblCenter)
