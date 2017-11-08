@@ -31,7 +31,7 @@ Partial Class Form1
         '
         Me.lblAnswer.AutoSize = True
         Me.lblAnswer.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAnswer.Location = New System.Drawing.Point(72, 74)
+        Me.lblAnswer.Location = New System.Drawing.Point(73, 43)
         Me.lblAnswer.Name = "lblAnswer"
         Me.lblAnswer.Size = New System.Drawing.Size(131, 25)
         Me.lblAnswer.TabIndex = 0
@@ -39,7 +39,7 @@ Partial Class Form1
         '
         'btnShowAnswer
         '
-        Me.btnShowAnswer.Location = New System.Drawing.Point(27, 170)
+        Me.btnShowAnswer.Location = New System.Drawing.Point(27, 128)
         Me.btnShowAnswer.Name = "btnShowAnswer"
         Me.btnShowAnswer.Size = New System.Drawing.Size(91, 33)
         Me.btnShowAnswer.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(157, 170)
+        Me.btnExit.Location = New System.Drawing.Point(155, 128)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(91, 33)
         Me.btnExit.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ClientSize = New System.Drawing.Size(276, 198)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnShowAnswer)
         Me.Controls.Add(Me.lblAnswer)
