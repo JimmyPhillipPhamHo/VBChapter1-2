@@ -31,7 +31,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(167, 165)
+        Me.btnExit.Location = New System.Drawing.Point(123, 129)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class Form1
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(88, 31)
+        Me.lblName.Location = New System.Drawing.Point(64, 29)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(103, 19)
         Me.lblName.TabIndex = 1
@@ -53,7 +53,7 @@ Partial Class Form1
         '
         Me.lblStreet.AutoSize = True
         Me.lblStreet.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStreet.Location = New System.Drawing.Point(60, 62)
+        Me.lblStreet.Location = New System.Drawing.Point(32, 56)
         Me.lblStreet.Name = "lblStreet"
         Me.lblStreet.Size = New System.Drawing.Size(160, 19)
         Me.lblStreet.TabIndex = 2
@@ -64,7 +64,7 @@ Partial Class Form1
         '
         Me.lblCityStateZip.AutoSize = True
         Me.lblCityStateZip.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCityStateZip.Location = New System.Drawing.Point(63, 92)
+        Me.lblCityStateZip.Location = New System.Drawing.Point(32, 87)
         Me.lblCityStateZip.Name = "lblCityStateZip"
         Me.lblCityStateZip.Size = New System.Drawing.Size(157, 19)
         Me.lblCityStateZip.TabIndex = 3
@@ -73,7 +73,7 @@ Partial Class Form1
         '
         'btnShowInfo
         '
-        Me.btnShowInfo.Location = New System.Drawing.Point(39, 165)
+        Me.btnShowInfo.Location = New System.Drawing.Point(24, 129)
         Me.btnShowInfo.Name = "btnShowInfo"
         Me.btnShowInfo.Size = New System.Drawing.Size(75, 23)
         Me.btnShowInfo.TabIndex = 4
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(285, 223)
+        Me.ClientSize = New System.Drawing.Size(225, 176)
         Me.Controls.Add(Me.btnShowInfo)
         Me.Controls.Add(Me.lblCityStateZip)
         Me.Controls.Add(Me.lblStreet)
