@@ -21,6 +21,6 @@
     End Sub
 
     Private Sub btnFive_Click(sender As Object, e As EventArgs) Handles btnFive.Click
-        MessageBox.Show("funf")
+        MessageBox.Show("Funf")
     End Sub
 End Class
